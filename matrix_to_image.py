@@ -32,7 +32,7 @@ def converter(path, file_name, extension, log = 'OFF'):
                 array.append(innerarray)
                 innerarray=[]
         if log == 'ON':
-            print('\nImmagine salvata alla posizione: ' + path + 'image_from_' + file_name + '.png')
+            print('\nImmagine salvata alla posizione: ' + path + file_name + '.png')
             print('L\'immagine ha dimensione [h,w] = [' + str(h) + ', ' + str(w) + '].\n')
 
         array=np.asarray(array)
