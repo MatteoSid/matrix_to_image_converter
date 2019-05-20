@@ -10,7 +10,7 @@ print('path: ' + path)
 
 log = converter(
     path = path,
-    file_name = 'test',
+    file_name = '1.neutral',
     extension = '.sim',
     log = 'ON'
 )
